@@ -1,5 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client"
+import ReactDOM from 'react-dom/client';
+import MyApp from './MyApp';
 
-const root= ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>hima</h1>)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<MyApp/>);
