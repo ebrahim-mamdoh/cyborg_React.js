@@ -5,7 +5,7 @@ import {Header, Footer , Container} from './components/index'
 const MyApp =()=>{
 return(
     <>
-    <Header/>
+    <Header fsName='hima' SecondName='mamdouh'/>
     <Container/>
     <Footer/>
     </>
