@@ -1,4 +1,7 @@
 import './MyApp.css'
+
+import {Header, Footer , Container} from './components/index'
+
 const MyApp =()=>{
 return(
     <>
