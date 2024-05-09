@@ -2,7 +2,7 @@ import './Header.css';
 import logo from '../../assets/images/logo.png'
  import NaveItem, {NaveItemDropDown} from '../NaveItem/NaveItem';
 
-function Header(props) {
+const Header=()=>{
   return ( <>
         <div className="navbar navbar-expand-md bg-dark navbar-dark ">
         <div className="container">

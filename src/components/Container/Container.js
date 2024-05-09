@@ -1,12 +1,9 @@
 import './Container.css'
 
 import React from 'react'
-function Container() {
+const Container=(props)=> {
   return (
-    <div className='main'>
-            <h1>Container235</h1>
-
-    </div>
+    <div>{props.children} </div>
   )
 }
 
