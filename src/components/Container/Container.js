@@ -1,11 +1,10 @@
 import './Container.css'
 
-
 import React from 'react'
 function Container() {
   return (
-    <div>
-            <h1>Container</h1>
+    <div className='main'>
+            <h1>Container235</h1>
 
     </div>
   )
