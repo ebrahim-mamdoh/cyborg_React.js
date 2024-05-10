@@ -1,6 +1,28 @@
 .hero-main{
-    background-color: #27292a;
-    color: white;
-    border-radius: 25px;
+    background: url('../../assets/images/banner-bg.jpg')no-repeat ;
+    background-size: cover,cover;
+    background-color:var(--color-dark);
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
     padding: 50px;
+}
+.hero-text{
+    max-width:500px;
+}
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--margin-primary)/2);
+    font-weight:900;
+}
+.hero-title em{
+    font-style: normal;
+    color: var(--color-primary);
+}
+ 
+.hero-subtitle{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: calc(var(--margin-primary)/2);
 }
