@@ -1,10 +1,10 @@
 import './Header.css';
-import logo from '../../assets/images/logo.png'
- import NaveItem, {NaveItemDropDown} from '../NaveItem/NaveItem';
+import logo from '../../../assets/images/logo.png'
+ import NaveItem, {NaveItemDropDown} from '../../NaveItem/NaveItem';
 
 const Header=()=>{
   return ( <>
-        <div className="navbar navbar-expand-md bg-dark navbar-dark ">
+        <div className="navbar navbar-expand-md navbar-dark cyporg-navbar ">
         <div className="container">
             <a href="#" className="navbar-brand"><img src={logo}></img></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">

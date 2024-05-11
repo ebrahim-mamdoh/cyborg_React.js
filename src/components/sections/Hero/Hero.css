@@ -1,9 +1,9 @@
 .hero-main{
-    background: url('../../assets/images/banner-bg.jpg')no-repeat ;
+    background: url('../../../assets/images/banner-bg.jpg')no-repeat ;
     background-size: cover,cover;
     background-color:var(--color-dark);
     color: var(--color-light);
-    border-radius: var(--border-radius-primary);
+    border-radius: var(--porder-radius-praimary);
     padding: 50px;
 }
 .hero-text{
