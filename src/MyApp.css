@@ -8,7 +8,7 @@
 
     --distance-primary:50px;
     --padding-primary:var(--distance-primary);
-    --margin-primary:var(var(--distance-primary));
+    --margin-primary:var(--distance-primary);
     --porder-radius-praimary:calc(var(--distance-primary)/2);
 
     --font-family-primary:"Poppins", sans-serif ;
@@ -23,4 +23,11 @@ body{
 background-color: var(--color-bg-body);
 font-family:var(--font-family-primary) ;
 
+}
+ul{
+    list-style-type: none;
+
+}
+a {
+text-decoration:none ;
 }
