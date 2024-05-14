@@ -1,0 +1,29 @@
+.most-popular-item{
+    flex: 1;
+}
+
+
+
+
+.card-wrapper{
+    background-color: var(--color-dark);
+    border-radius:calc(var(--porder-radius-praimary)/2);
+    padding: calc(var(--padding-primary)/2);
+    margin:calc(var(--margin-primary)/5) ;
+
+}
+.most-popular-img{
+    width: 100%;
+    border-radius:calc(var(--porder-radius-praimary)/2) ;
+    margin-bottom: calc(var(--margin-primary)/2);
+    
+}
+
+.most-popualr-content{
+   display: flex;
+    justify-content:space-between ;
+}
+
+.most-popular-title{
+font-size: 14px;
+}
