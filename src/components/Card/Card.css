@@ -1,5 +1,5 @@
 .most-popular-item{
-    flex: 1;
+    flex: 1 25%;
 }
 
 
@@ -26,4 +26,5 @@
 
 .most-popular-title{
 font-size: 14px;
+line-height: 1.5rem;
 }
