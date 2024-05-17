@@ -3,3 +3,5 @@ export {default as Container} from './Container/Container'
 export {default as NavItem} from './NaveItem/NaveItem'
 export { NaveItemDropDown} from './NaveItem/NaveItem'
 export {default as Card} from './Card/Card'
+export {default as SectionHeader} from './SectionHeader/SectionHeader'
+
