@@ -5,14 +5,14 @@ import popular_2 from '../../../assets/images/popular-02.jpg'
 import popular_3 from '../../../assets/images/popular-03.jpg'
 import popular_4 from '../../../assets/images/popular-04.jpg'
 import { SectionHeader } from '../../../components/index'
+import { SectionWrapper } from '../../../components//index'
 
 
 
 function MostPop() {
   return (
     <>
-
-      <div className='section-wrapper'>
+      <SectionWrapper>
         <div className='section-header'>
           <h4>Most popular</h4>
         </div>
@@ -27,7 +27,7 @@ function MostPop() {
           <Card img={popular_4} title='Cs-Go' category='battle 5' rate='4.6' downloas='6.1M' />
 
         </div>
-      </div>
+      </SectionWrapper>
     </>
   )
 }
