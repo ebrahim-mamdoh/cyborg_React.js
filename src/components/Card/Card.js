@@ -8,7 +8,7 @@ function Card(props) {
   return (
 <div className='most-popular-item'>
               <div className='card-wrapper'>
-                  <img className='most-popular-img' src={props.img}/>
+                  <img className='most-popular-img' src={props.image}/>
                   <div className='most-popualr-content'>
                     <h4 className='most-popular-title'>
                       {props.title} <br/>
