@@ -13,8 +13,8 @@ const MostPopularData=[
     {id:'most_popular_item_3'  ,image:popular_4  ,title:'Cs-Go'     ,category:'battle 5'  ,rate:'4.8'  ,download:'5.5M'},
     {id:'most_popular_item_4'  ,image:popular_5  ,title:'Mini Craft',category:'Sandbox'  ,rate:'3.8'  ,download:'8.3M'},
     {id:'most_popular_item_5'  ,image:popular_6  ,title:'Eagles Fly',category:'Matrix Games'  ,rate:'2.4'  ,download:'1.8M'},
-    {id:'most_popular_item_1'  ,image:popular_2  ,title:'pubg'       ,category:'Stream-x'  ,rate:'3.8'  ,download:'5.3M'},
-    {id:'most_popular_item_4'  ,image:popular_5  ,title:'Mini Craft' ,category:'Legendary'  ,rate:'4.5'  ,download:'2.4M'},
+    {id:'most_popular_item_6'  ,image:popular_2  ,title:'pubg'       ,category:'Stream-x'  ,rate:'3.8'  ,download:'5.3M'},
+    {id:'most_popular_item_7'  ,image:popular_5  ,title:'Mini Craft' ,category:'Legendary'  ,rate:'4.5'  ,download:'2.4M'},
   ]
 
  export default MostPopularData
