@@ -1,10 +1,14 @@
 import "./GamingLib.css"
-import { SectionWrapper,card } from "../../../components/index"
+import { SectionWrapper,GamingLibraryCard } from "../../../components/index"
 
-
+import GamingLibraryData from "../../../Data/GamingLibrary"
 
 
 const GamingLib = () => {
+  // const cards=GamingLibraryData.map(card=>{
+  //   return <Card key={card.id} image={card.image} title={card.title} category={card.category} rate={card.rate}  download={card.download}/>
+  // })
+
   return (
     <>
     <SectionWrapper>
@@ -13,7 +17,7 @@ const GamingLib = () => {
         </div>
         <div className='most-popular-items'>
           
-            {/* {cards} */}
+          <GamingLibraryCard> </GamingLibraryCard>
         </div>
       </SectionWrapper></>
   )
