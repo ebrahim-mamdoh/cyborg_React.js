@@ -9,8 +9,8 @@ return(
     <>
     <Header />
     <Container>
-    <Hero/> 
-    <MostPop/> 
+    {/* <Hero/>  */}
+    {/* <MostPop/>  */}
     <GamingLib/> 
 
     </Container>

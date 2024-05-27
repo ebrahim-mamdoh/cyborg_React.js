@@ -8,6 +8,7 @@ const GamingLibraryData=[
     {id:'most_popular_item_1'  ,image:popular_1  ,title:'Dota 2'  ,category:'Sandbox'  ,date_added:'24/08/2006'    ,hours_played:'648 H 22 mins'},
     {id:'most_popular_item_2'  ,image:popular_2  ,title:'fortnite'  ,category:'Sandbox'  ,date_added:'24/08/2014'  ,hours_played:'587 H 87 mins'},
     {id:'most_popular_item_3'  ,image:popular_3  ,title:'category'  ,category:'Sandbox'  ,date_added:'24/08/2007'  ,hours_played:'235 H 45 mins'},
+    {id:'most_popular_item_3'  ,image:popular_3  ,title:'category'  ,category:'Sandbox'  ,date_added:'24/08/2007'  ,hours_played:'235 H 45 mins'},
 
   ]
 
