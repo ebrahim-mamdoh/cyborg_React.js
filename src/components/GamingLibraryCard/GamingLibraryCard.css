@@ -1,0 +1,35 @@
+.gaming-library-card{
+  flex: 1 1 100%;  
+}
+
+.gaming-library-card ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #28292c;
+    padding: calc(var(--padding-primary)/2) 0;
+
+}
+.gaming-library-card ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.gaming-library-card h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gaming-library-card span{
+    font-size: 15px;
+    font-weight: 600;
+    color: #454648;
+}
+
+.gaming-library-card img{
+    border-radius: 10px;
+}
+
+
