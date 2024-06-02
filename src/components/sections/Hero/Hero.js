@@ -1,4 +1,6 @@
 import './Hero.css'
+import {PrimaryButton} from '../../../components/index'
+
 
 const Hero = () => {
   return (
@@ -6,6 +8,8 @@ const Hero = () => {
       <div className='hero-text'>
         <h6 className='hero-subtitle'>Welcome To Cyborg</h6>
         <h4 className='hero-title'><em>Browse</em> Our Popular Games Hero</h4>
+
+        <PrimaryButton></PrimaryButton>
 
         <div className='main-button'>
             <a href='browse.html'>Browse Now</a>
