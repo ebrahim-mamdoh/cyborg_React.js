@@ -1,7 +1,7 @@
 .button a {
     font-size: 14px;
     color: var(--color-light);
-    border-radius: var(--border-radius-primary);
+    border-radius: var(--porder-radius-praimary);
     padding: 12px 30px;
     letter-spacing: 0.5px;
     transition: all .3s;

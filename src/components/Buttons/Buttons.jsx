@@ -3,8 +3,10 @@ import './Buttons.css'
 
 const PrimaryButton = (props) => {
   return (
-    <div>
-      {props.children}
+    <div className='button primary-btn'>
+        <a href="/#">
+        {props.children}
+        </a>
     </div>
   )
 }
@@ -12,9 +14,10 @@ const PrimaryButton = (props) => {
 
 const SecondaryButton = (props) => {
     return (
-      <div>
-              {props.children}
-
+      <div className='button secondary-btn'>
+        <a href="/#">
+        {props.children}
+        </a>
       </div>
     )
   }

@@ -9,11 +9,11 @@ const Hero = () => {
         <h6 className='hero-subtitle'>Welcome To Cyborg</h6>
         <h4 className='hero-title'><em>Browse</em> Our Popular Games Hero</h4>
 
-        <PrimaryButton></PrimaryButton>
+        <PrimaryButton>
+       Browse now
+        </PrimaryButton>
 
-        <div className='main-button'>
-            <a href='browse.html'>Browse Now</a>
-        </div>
+        
         
       </div>
     </div>
