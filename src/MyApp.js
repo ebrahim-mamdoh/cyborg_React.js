@@ -1,5 +1,5 @@
 import './MyApp.css'
-
+import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom'
 import {Container} from './components/index'
 import {Header, Footer ,Hero,MostPop, GamingLib} from './components/sections/index'
 
@@ -9,13 +9,10 @@ return(
     <>
     <Header />
     <Container>
-    <Hero/> 
-    <MostPop/> 
-    <GamingLib/> 
-
+    
     </Container>
 
-    {/* <Footer></Footer> */}
+    <Footer/>
     </>
 )
 }
