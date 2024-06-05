@@ -1,11 +1,10 @@
 import './Footer.css'
 
-
-
-function Footer() {
+const Footer = () => {
   return (
     <div>
-      <p>copyright 2024 <span>cyborg Gaming</span> .All rihts resrved Design: TemplateMo</p>
+            <p>copyright 2024 <span>cyborg Gaming</span> .All rihts resrved Design: TemplateMo</p>
+
     </div>
   )
 }
