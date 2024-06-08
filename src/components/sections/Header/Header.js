@@ -1,6 +1,5 @@
 import './Header.css';
 import logo from '../../../assets/images/logo.png'
- import NaveItem, {NaveItemDropDown} from '../../NaveItem/NaveItem';
 import { Link } from 'react-router-dom';
 
 const Header=()=>{
