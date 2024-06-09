@@ -5,7 +5,9 @@ import { Footer ,Hero,MostPop, GamingLib} from '../../components/sections/index'
 function Profile() {
   return (
     <>
-    <MostPop/> 
+    <MostPop/>
+    <GamingLib/> 
+ 
 
     </>
     )
