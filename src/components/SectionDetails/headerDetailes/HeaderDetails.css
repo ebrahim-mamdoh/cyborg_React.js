@@ -1,0 +1,37 @@
+.image_1{
+    border-radius: var(--porder-radius-praimary);
+}
+.image_2{
+    border-radius: var(--porder-radius-praimary);
+    width: 100%;
+}
+ .thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+   .thumb .hover-effect {
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+  }
+  
+   .thumb:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+    bottom: 15px;
+  }
+  
+   .thumb .hover-effect h6 {
+    background-color: rgba(31,33,34,0.95);
+    display: inline-block;
+    color: #ec6090;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
